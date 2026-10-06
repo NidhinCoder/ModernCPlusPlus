@@ -1,0 +1,16 @@
+Reference books - where I downloaded them from
+================================================
+
+1. C++.pdf
+   (Maxim Volkov's university C++ lecture notes)
+   https://www.idpoisson.fr/volkov/C++.pdf
+
+2. Scott_Meyers_Effective_Modern_C++.pdf
+   (Scott Meyers - Effective Modern C++, 42 items on C++11/14)
+   https://ananyapam7.github.io/resources/C++/Scott_Meyers_Effective_Modern_C++.pdf
+
+3. Modern C++ For Absolute Beginners.pdf
+   (Slobodan Dmitrovic - beginner-friendly intro, C++11 to C++20)
+   https://github.com/Mohammed-3tef/Computer_Science_Books/blob/main/Modern%20C%2B%2B%20For%20Absolute%20Beginners.pdf
+
+Note: these PDFs are kept local only (see .gitignore) and are not pushed to GitHub.

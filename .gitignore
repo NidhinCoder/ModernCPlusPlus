@@ -31,6 +31,11 @@ CMakeCache.txt
 CMakeFiles/
 CMakeUserPresets.json
 
+# ---- Reference books ----
+# Keep the actual copyrighted PDFs local only; the source links (sources.txt)
+# are tracked so the reading list shows up on GitHub.
+Books/*.pdf
+
 # ---- Editor / OS ----
 .vscode/
 *.swp
