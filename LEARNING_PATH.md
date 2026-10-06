@@ -78,7 +78,8 @@ How I work each topic:
 - [x] 03 – auto & type deduction
 - [x] 04 – const vs constexpr
 - [x] 05 – references & value categories
-- [ ] 06 – move semantics   <-- next
+- [x] 06 – move semantics
+- [ ] 07 – smart pointers: unique_ptr   <-- next
 - [ ] 05 – references & value categories
 - [ ] 06 – move semantics
 - [ ] 07 – unique_ptr
