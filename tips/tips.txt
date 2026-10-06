@@ -1,0 +1,32 @@
+Tips & hacks I pick up along the way
+=====================================
+
+--------------------------------------------------------------------
+TIP 1 - "cl is not recognized" in the VS Code terminal
+--------------------------------------------------------------------
+Problem:
+  Running  cl /std:c++20 /EHsc /W4 main.cpp  in the normal VS Code
+  (PowerShell) terminal fails with:
+      cl : The term 'cl' is not recognized ...
+
+Why:
+  cl.exe (the MSVC compiler) is only available in a terminal that has
+  the Visual Studio developer environment loaded. A plain PowerShell
+  terminal doesn't know where cl.exe lives.
+
+Fix - load the environment in the current terminal, then compile:
+  cmd /k '"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvars64.bat"'
+
+  After that, cl works:
+  cl /std:c++20 /EHsc /W4 main.cpp
+  main.exe
+
+Cleaner alternative:
+  Open the terminal profile "Developer PowerShell for VS 2022"
+  (VS Code: click the + dropdown in the terminal panel). It already
+  has cl loaded, so no vcvars step needed.
+
+Even easier:
+  Use the build.bat helper in the repo root. It auto-loads the
+  environment, compiles with C++20 + /W4, and runs the exe:
+      build 02-const-correctness\main.cpp
