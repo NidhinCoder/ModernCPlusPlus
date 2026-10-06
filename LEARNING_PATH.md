@@ -76,7 +76,8 @@ How I work each topic:
 - [x] 01 – Hello world (toolchain check)
 - [x] 02 – const correctness
 - [x] 03 – auto & type deduction
-- [ ] 04 – const vs constexpr   <-- next
+- [x] 04 – const vs constexpr
+- [ ] 05 – references & value categories   <-- next
 - [ ] 05 – references & value categories
 - [ ] 06 – move semantics
 - [ ] 07 – unique_ptr
