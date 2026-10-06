@@ -77,7 +77,8 @@ How I work each topic:
 - [x] 02 – const correctness
 - [x] 03 – auto & type deduction
 - [x] 04 – const vs constexpr
-- [ ] 05 – references & value categories   <-- next
+- [x] 05 – references & value categories
+- [ ] 06 – move semantics   <-- next
 - [ ] 05 – references & value categories
 - [ ] 06 – move semantics
 - [ ] 07 – unique_ptr
