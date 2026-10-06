@@ -1,0 +1,38 @@
+# ---- Compiled output ----
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+*.ilk
+*.pdb
+*.exp
+
+# ---- MSVC / Visual Studio ----
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# ---- CMake (if used later) ----
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+
+# ---- Editor / OS ----
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
